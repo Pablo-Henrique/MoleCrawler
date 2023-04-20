@@ -1,0 +1,7 @@
+applications:
+- name: MoleCrawler
+  path: MoleCrawler/target/MoleCrawler-0.1.jar
+  memory: 4096m
+  env:
+    JAVA_OPTS: '-XX:ReservedCodeCacheSize=32M -XX:MaxDirectMemorySize=32M'
+    JBP_CONFIG_OPEN_JDK_JRE: '[memory_calculator: {stack_threads: 30}]'
