@@ -1,2 +1,4 @@
-package com.molecrawler.model;public class Product {
+package com.molecrawler.model;
+
+public class Product {
 }

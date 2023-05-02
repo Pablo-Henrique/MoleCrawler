@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d48de67-5690-4717-99a9-edd203d9153e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/sync/LinkRefQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/sync/LinkStorageQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/CrawlerContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/CrawlerContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/CrawlerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/CrawlerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/sync/CrawlerSynchronizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/sync/CrawlerSynchronizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/sync/ExecutorThreadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/molecrawler/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +26,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="28230278-623e-4c37-a6de-f378127119ee" />
+        <option name="url" value="https://github.com/Pablo-Henrique/MoleCrawler.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -52,19 +73,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
+    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ToolWindowRun.ShowToolbar": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/pablo-ti/Área de Trabalho/untitled",
+    "last_opened_file_path": "/home/pablo/Documentos/ache",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.molecrawler.crawler.sync" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -78,9 +104,9 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <envs>
-        <env name="DATABASE_PASSWORD" value="Merc@do10" />
+        <env name="DATABASE_PASSWORD" value="$DATABASE_PASSWORD$" />
         <env name="DATABASE_URL" value="jdbc:mysql://pinheiraoloja2.ddns.net:33006/mole_crawler?useSSL=false&amp;serverTimezone=UTC&amp;useLegacyDatetimeCode=false" />
-        <env name="DATABASE_USER" value="pablo-ti" />
+        <env name="DATABASE_USER" value="$DATABASE_USER$" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="com.molecrawler.Main" />
       <module name="MoleCrawler" />
@@ -129,6 +155,17 @@
     <envs>
       <env key="MAVEN_HOME" value="/opt/apache-maven-3.9.1" />
     </envs>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
