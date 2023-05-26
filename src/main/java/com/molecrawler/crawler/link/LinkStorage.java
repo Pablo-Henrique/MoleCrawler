@@ -1,13 +1,25 @@
 package com.molecrawler.crawler.link;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.molecrawler.crawler.link.impl.LinkRelevanceClassifier;
 
-public class LinkStorage {
+import java.util.List;
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(LinkStorage.class);
+public interface LinkStorage {
 
-    public LinkRelevance selectLink() {
-        return null;
+    void add(LinkRelevance link);
+
+    LinkRelevance select();
+
+    List<LinkRelevance> select(int limit);
+
+    boolean hasPendingLink();
+
+    int count();
+
+    default void addAll(List<String> urls) {
+        for (String urlSingle : urls) {
+            add(new LinkRelevanceClassifier(urlSingle, 0));
+        }
     }
+
 }

@@ -1,4 +1,6 @@
 package com.molecrawler.crawler.link;
 
-public class LinkPrefer {
+public interface LinkRelevance {
+
+
 }
