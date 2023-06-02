@@ -12,7 +12,6 @@ public class CrawlerSynchronizer extends AbstractExecutionThreadService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(CrawlerSynchronizer.class);
     private final LinkStorage linkStorage;
-    private Crawler crawler;
 
     public CrawlerSynchronizer(LinkStorage linkStorage) {
         this.linkStorage = linkStorage;

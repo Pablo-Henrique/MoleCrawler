@@ -1,5 +1,6 @@
 applications:
   - name: MoleCrawler
+    echo: Hello
     path: MoleCrawler/target/MoleCrawler-0.1.jar
     memory: 2048m
     main-class: com.molecrawler.Main

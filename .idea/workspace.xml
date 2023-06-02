@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d48de67-5690-4717-99a9-edd203d9153e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/core/Crawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/core/CrawlerContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/core/CrawlerParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/enums/CrawlerJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/exception/DataNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/link/LinkRelevance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/link/impl/LinkRelevanceClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/link/impl/SimpleLinkStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/CrawlerContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/CrawlerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/CrawlerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/link/LinkPrefer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/link/LinkStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/link/LinkStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/sync/CrawlerSynchronizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/molecrawler/crawler/sync/CrawlerSynchronizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
